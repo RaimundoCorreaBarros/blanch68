@@ -1,0 +1,23 @@
+// Vendors
+
+// Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/media-queries';
+
+// Base
+@import 'base/reset';
+@import 'base/tipography';
+@import 'base/base';
+
+// Components
+@import 'components/buttons';
+
+// Layout
+@import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/ventas';
+@import 'layout/servicios';
+@import 'layout/propiedades';
+@import 'layout/footer';
+
+// Vendors

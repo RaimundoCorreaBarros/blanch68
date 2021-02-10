@@ -1,0 +1,30 @@
+.servicios {
+    padding-bottom: 4rem;
+    h3 {
+        padding-bottom: 2rem;
+    }
+    h4 {
+        padding-bottom: 1rem;
+    }
+}
+
+.servicios__servicios {
+    padding: 0 2rem;
+}
+
+.servicios__tarjetas {
+    margin: auto;
+    padding-bottom: 3rem;
+    img {
+        width: 310px;
+        height: 215px;
+        margin: auto;
+    }
+}
+.servicios__card-texto {
+    padding: 1.25rem;
+}
+
+.card {
+    border: 0;
+}

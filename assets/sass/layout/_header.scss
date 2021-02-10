@@ -1,0 +1,21 @@
+header {
+    padding: 7rem 0;
+    margin: 10rem 1rem;
+    text-align: center;
+    color: white;
+    
+    background-image: url(../image/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    h2 {
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    p {
+        color: $blanco;
+    }
+}
