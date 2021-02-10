@@ -13,17 +13,17 @@
 
   .propiedades__img {
     padding-right: 0 !important;
-    text-align: left !important;
+    text-align: center !important;
   }
   .propiedades__img img {
-    width: 330px !important;
-    height: 309px !important;
+    width: 300px !important;
+    height: auto !important;
     margin: auto !important;
     padding-top: 3rem !important;
   }
 
   .propiedades__texto {
-    padding: 0 3rem !important;
+    padding: 0 3.8rem !important;
   }
 
   footer {
@@ -37,6 +37,11 @@
 
   .navbar-collapse a {
     padding-right: 1rem !important;
+  }
+
+  .ancho {
+    margin: 0 auto;
+    width: 55%;
   }
 }
 @media (min-width: 1200px) {
