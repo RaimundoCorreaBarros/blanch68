@@ -13,10 +13,11 @@
 
   .propiedades__img {
     padding-right: 0 !important;
+    padding-left: 0 !important;
     text-align: center !important;
   }
   .propiedades__img img {
-    width: 300px !important;
+    width: 270px !important;
     height: auto !important;
     margin: auto !important;
     padding-top: 3rem !important;
