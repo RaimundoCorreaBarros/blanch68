@@ -195,4 +195,86 @@ footer p {
   padding-top: 1rem;
 }
 
+.somos {
+  padding-top: 12rem;
+  padding-bottom: 5rem;
+  padding-bottom: 4rem;
+}
+.somos h3 {
+  max-width: 300px;
+}
+.somos p {
+  text-align: justify;
+}
+
+.somos__titulos {
+  text-align: justify;
+  padding-bottom: 2.5rem;
+}
+
+.somos__separador {
+  padding-bottom: 10rem;
+}
+
+.somos__fotos {
+  margin: 0 1rem;
+  padding-bottom: 10rem;
+}
+.somos__fotos img {
+  width: 100%;
+  height: 240px;
+  margin: auto;
+}
+
+.equipo {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.equipo p {
+  line-height: 1px;
+}
+.equipo img {
+  border-radius: 50%;
+  width: 120px;
+}
+.equipo h5 {
+  padding-top: 1rem;
+}
+
+.equipo__equipo {
+  padding-top: 5rem;
+}
+
+.propiedades__header {
+  padding: 7rem 0;
+  margin: 7rem 1rem;
+  text-align: center;
+  color: white;
+  background-image: url(../image/header_propiedades.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.propiedades__header h2 {
+  margin: 0 auto;
+  width: 300px;
+  color: #141414;
+}
+.propiedades__header p {
+  color: #ffffff;
+}
+
+.blanco {
+  margin: 0 auto;
+  width: 90%;
+  padding: 6rem 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.buscador {
+  text-align: center;
+  padding-bottom: 7rem;
+}
+
 /*# sourceMappingURL=main.css.map */
