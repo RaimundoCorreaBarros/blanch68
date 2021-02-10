@@ -1,0 +1,50 @@
+.ofrecer {
+    padding: 7rem 0;
+    margin: 7rem 1rem;
+    text-align: center;
+    color: white;
+    
+    background-image: url(../image/cocina_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ofrecer__titulo {
+    margin: 0 4rem;
+    padding: 2rem 0;
+    background-color: rgba($blanco, $alpha: .8);
+    color: $negro;
+}
+
+.ofrecer__img {
+    margin: 0 auto;
+    img {
+        height: 200px;
+        width: 90%;
+    }
+}
+
+.ofrecer__texto {
+    margin: 0 auto;
+    width: 60%;
+    text-align: left;
+    padding-top: 1.5rem;
+}
+
+.pilares {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.pilares__titulo {
+    margin: 0 auto;
+    max-width: 390px;
+    padding-bottom: 4rem;
+}
+
+.pilares__texto {
+    text-align: left;
+    padding-bottom: 3rem;
+}

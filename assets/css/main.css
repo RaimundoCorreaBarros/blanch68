@@ -44,6 +44,11 @@
     margin: 0 auto;
     width: 55%;
   }
+
+  .ancho2 {
+    margin: 0 auto;
+    width: 40%;
+  }
 }
 @media (min-width: 1200px) {
   .navbar-collapse a {
@@ -217,13 +222,11 @@ footer p {
 }
 
 .somos__fotos {
-  margin: 0 1rem;
+  margin: 0 30px;
   padding-bottom: 10rem;
 }
 .somos__fotos img {
-  width: 100%;
   height: 240px;
-  margin: auto;
 }
 
 .equipo {
@@ -275,6 +278,70 @@ footer p {
 .buscador {
   text-align: center;
   padding-bottom: 7rem;
+}
+
+.propiedades__propiedades {
+  padding-bottom: 7rem;
+  margin: 0 3rem;
+}
+
+.propiedades__propiedades-img {
+  height: 200px;
+}
+
+.propiedades__info {
+  padding-top: 1.5rem;
+  padding-bottom: 7rem;
+}
+
+.ofrecer {
+  padding: 7rem 0;
+  margin: 7rem 1rem;
+  text-align: center;
+  color: white;
+  background-image: url(../image/cocina_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.ofrecer__titulo {
+  margin: 0 4rem;
+  padding: 2rem 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #141414;
+}
+
+.ofrecer__img {
+  margin: 0 auto;
+}
+.ofrecer__img img {
+  height: 200px;
+  width: 90%;
+}
+
+.ofrecer__texto {
+  margin: 0 auto;
+  width: 60%;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+
+.pilares {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.pilares__titulo {
+  margin: 0 auto;
+  max-width: 390px;
+  padding-bottom: 4rem;
+}
+
+.pilares__texto {
+  text-align: left;
+  padding-bottom: 3rem;
 }
 
 /*# sourceMappingURL=main.css.map */
