@@ -11,16 +11,12 @@
 
 .servicios__servicios {
     padding: 0 2rem;
+    padding-bottom: 5rem;
 }
 
-.servicios__tarjetas {
+.servicios__card {
     margin: auto;
-    padding-bottom: 3rem;
-    img {
-        width: 310px;
-        height: 215px;
-        margin: auto;
-    }
+    max-width: 330px;
 }
 .servicios__card-texto {
     padding: 1.25rem;

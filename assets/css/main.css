@@ -7,24 +7,25 @@
     max-width: 300px;
   }
 
-  .ventas, .servicios, .servicios__servicios {
+  .ventas, .servicios {
     padding-left: 3rem;
   }
 
-  .propiedades__img {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    text-align: center !important;
+  .servicios {
+    padding-top: 2rem;
+    padding-bottom: 3rem !important;
   }
-  .propiedades__img img {
-    width: 270px !important;
-    height: auto !important;
-    margin: auto !important;
-    padding-top: 3rem !important;
+
+  .servicios__servicios {
+    padding: 0 3rem 2rem 3rem !important;
   }
 
   .propiedades__texto {
     padding: 0 3.8rem !important;
+  }
+
+  .propiedades__card, .integrales__cards {
+    padding: 2rem 3rem !important;
   }
 
   footer {
@@ -44,7 +45,7 @@
 @media (min-width: 992px) {
   .ancho {
     margin: 0 auto;
-    width: 55%;
+    width: 45%;
   }
 
   .ancho2 {
@@ -54,7 +55,7 @@
 }
 @media (min-width: 1200px) {
   .navbar-collapse a {
-    padding-right: 3rem !important;
+    padding-right: 2rem !important;
   }
 }
 body {
@@ -144,16 +145,12 @@ header p {
 
 .servicios__servicios {
   padding: 0 2rem;
+  padding-bottom: 5rem;
 }
 
-.servicios__tarjetas {
+.servicios__card {
   margin: auto;
-  padding-bottom: 3rem;
-}
-.servicios__tarjetas img {
-  width: 310px;
-  height: 215px;
-  margin: auto;
+  max-width: 330px;
 }
 
 .servicios__card-texto {
@@ -369,6 +366,10 @@ footer p {
   max-width: 300px;
 }
 
+.integrales__cards {
+  padding: 1rem 0;
+}
+
 .contacto {
   padding: 10rem 0;
 }
@@ -378,7 +379,7 @@ footer p {
   padding-top: 10rem;
   padding-bottom: 2rem;
   text-align: center;
-  width: 350px;
+  max-width: 320px;
 }
 .contacto__texto h2 {
   padding-bottom: 2rem;
@@ -386,6 +387,7 @@ footer p {
 
 .contacto__formulario {
   margin: 0 auto;
+  max-width: 75%;
 }
 
 .contacto__bg {
@@ -393,7 +395,6 @@ footer p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .contacto__btn {
