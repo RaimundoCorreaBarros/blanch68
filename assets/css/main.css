@@ -31,15 +31,17 @@
     padding-left: 3rem !important;
   }
 }
+@media (min-width: 756px) {
+  .cards {
+    margin: auto;
+  }
+
+  .cards__img {
+    width: 179px;
+    height: 250px;
+  }
+}
 @media (min-width: 992px) {
-  .navbar-brand {
-    padding-left: 3rem !important;
-  }
-
-  .navbar-collapse a {
-    padding-right: 1rem !important;
-  }
-
   .ancho {
     margin: 0 auto;
     width: 55%;
@@ -52,7 +54,7 @@
 }
 @media (min-width: 1200px) {
   .navbar-collapse a {
-    padding-right: 4rem !important;
+    padding-right: 3rem !important;
   }
 }
 body {
@@ -94,7 +96,6 @@ a {
 
 .navbar-brand {
   font-size: 2rem;
-  padding-left: 8rem;
 }
 
 header {
@@ -342,6 +343,66 @@ footer p {
 .pilares__texto {
   text-align: left;
   padding-bottom: 3rem;
+}
+
+.integrales__header {
+  padding: 7rem 0;
+  margin: 7rem 1rem;
+  text-align: center;
+  background-image: url(../image/living_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.integrales__titulo {
+  margin: 0 4rem;
+  padding: 2rem 4rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #141414;
+  width: 300px;
+}
+.integrales__titulo h2 {
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  max-width: 300px;
+}
+
+.contacto {
+  padding: 10rem 0;
+}
+
+.contacto__texto {
+  margin: 0 auto;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  width: 350px;
+}
+.contacto__texto h2 {
+  padding-bottom: 2rem;
+}
+
+.contacto__formulario {
+  margin: 0 auto;
+}
+
+.contacto__bg {
+  background-image: url(../image/living_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contacto__btn {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+textarea {
+  background-color: gray;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,35 @@
+.contacto {
+    padding: 10rem 0;
+}
+
+.contacto__texto {
+    margin: 0 auto;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    width: 350px;
+    h2 {
+        padding-bottom: 2rem;
+    }
+}
+
+.contacto__formulario {
+    margin: 0 auto;
+}
+
+.contacto__bg {
+    background-image: url(../image/living_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contacto__btn {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+textarea {
+    background-color: gray;
+}

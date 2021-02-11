@@ -1,0 +1,25 @@
+.integrales__header {
+    padding: 7rem 0;
+    margin: 7rem 1rem;
+    text-align: center;
+    
+    background-image: url(../image/living_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.integrales__titulo {
+    margin: 0 4rem;
+    padding: 2rem 4rem;
+    background-color: rgba($blanco, $alpha: .8);
+    color: $negro;
+    width: 300px;
+    h2 {
+        margin: 0 auto;
+        padding-bottom: 2rem;
+        max-width: 300px;
+    }
+}
+
