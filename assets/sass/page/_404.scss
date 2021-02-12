@@ -1,0 +1,23 @@
+.error {
+    padding: 7rem 0;
+    margin: 7rem 1rem;
+    text-align: center;
+    
+    background-image: url(../image/baño_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.error__texto {
+    margin: 0 auto;
+    padding: 5rem 4rem;
+    background-color: rgba($blanco, $alpha: .8);
+    color: $negro;
+    max-width: 340px;
+
+    h2 {
+        padding-bottom: 1rem;
+    }
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media (max-width: 756px) {
   .navbar-brand {
     padding-left: 2rem !important;
@@ -25,7 +26,7 @@
   }
 
   .propiedades__card, .integrales__cards {
-    padding: 2rem 3rem !important;
+    padding: 0rem 1rem !important;
   }
 
   footer {
@@ -404,6 +405,28 @@ footer p {
 
 textarea {
   background-color: gray;
+}
+
+.error {
+  padding: 7rem 0;
+  margin: 7rem 1rem;
+  text-align: center;
+  background-image: url(../image/baño_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.error__texto {
+  margin: 0 auto;
+  padding: 5rem 4rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #141414;
+  max-width: 340px;
+}
+.error__texto h2 {
+  padding-bottom: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
