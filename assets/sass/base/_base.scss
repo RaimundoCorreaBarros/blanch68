@@ -6,9 +6,32 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $lara;
     font-weight: $bold;
 }
+
+h1 {
+    font-size: $xxx-large;
+}
+h2 {
+    font-size: $xx-large;
+}
+h3 {
+    font-size: $x-large;
+}
+h4 {
+    font-size: $large;
+    line-height: 60px;
+}
+h5 {
+    font-size: $medium;
+    line-height: 38px;
+}
+h6 {
+    font-size: $small;
+    line-height: 28px;
+}
+
 p {
     font-weight: $regular;
-    color: #000;
+    color: $gris;
 }
 
 a {

@@ -10,13 +10,16 @@
 }
 
 .servicios__servicios {
-    padding: 0 2rem;
-    padding-bottom: 5rem;
+    padding: 0 2rem 5rem 2rem;
 }
 
 .servicios__card {
     margin: auto;
     max-width: 330px;
+    padding: 3rem 0;
+    img {
+        height: 232px;
+    }
 }
 .servicios__card-texto {
     padding: 1.25rem;

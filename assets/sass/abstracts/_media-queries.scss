@@ -20,12 +20,28 @@
         padding: 0 3rem 2rem 3rem !important;
     }
 
-    .propiedades__texto {
-        padding: 0 3.8rem !important;
-    }
-
     .propiedades__card, .integrales__cards {
         padding: 0rem 1rem !important;
+    }
+
+    .propiedades__card-img img {
+        max-width: 330px;
+        height: 232px;
+    }
+
+    .propiedades__texto {
+        padding: 0;
+        margin: 0 auto;
+        max-width: 330px;
+        padding-bottom: 4rem;
+    }
+
+    .integrales__titulo p {
+        padding: 2rem 2rem !important;
+    }
+
+    .integrales__fotos-2 img {
+        padding: 0 0 1rem 0rem !important;
     }
     
     footer {
@@ -41,6 +57,17 @@
         width: 179px;
         height: 250px;
     }
+    .propiedades__card img {
+        width: 100%;
+        height: 100%;
+    }
+    .servicios__servicios {
+        margin: 0 auto;
+        max-width: 220px;
+    }
+    .integrales__titulo p {
+        padding: 2rem 4rem;
+    }
 }
 
 @media (min-width: 992px) {
@@ -52,6 +79,13 @@
     .ancho2 {
         margin: 0 auto;
         width: 40%;
+    }
+    .propiedades__card-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .integrales__titulo p {
+        padding: 2rem 6rem;
     }
 }
 

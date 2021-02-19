@@ -1,8 +1,11 @@
 .btn-color {
     padding: 0.1rem 3rem;
-    background-color: $negro;
+    background-color: $gris;
     color: $blanco;
-    a:hover {
+    &:hover {
+        color: $blanco;
+    }
+    a:focus {
         color: $blanco;
     }
 }

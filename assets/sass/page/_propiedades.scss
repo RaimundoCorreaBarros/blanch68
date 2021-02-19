@@ -35,7 +35,12 @@
 
 .propiedades__propiedades {
     padding-bottom: 7rem;
-    margin: 0 3rem;
+    margin: 0 auto;
+}
+
+.propiedades__priedades-card {
+    margin: 0 auto;
+    max-width: 330px;
 }
 
 .propiedades__propiedades-img {
@@ -43,6 +48,6 @@
 }
 
 .propiedades__info {
-    padding-top: 1.5rem;
-    padding-bottom: 7rem;
+    padding: 1.5rem 1.2rem 7rem 1.2rem;
+
 }
