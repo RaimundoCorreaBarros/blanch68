@@ -4,6 +4,11 @@ footer {
     padding: 4rem 0;
     p {
         color: $blanco;
-        padding-top: 1rem;
+        padding-top: 0.8rem;       
     }
+}
+
+.footer__texto p {
+    padding-top: .5rem !important;
+    margin-bottom: 0 !important;
 }

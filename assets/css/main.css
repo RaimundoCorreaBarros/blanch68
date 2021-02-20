@@ -266,7 +266,12 @@ footer {
 }
 footer p {
   color: #ffffff;
-  padding-top: 1rem;
+  padding-top: 0.8rem;
+}
+
+.footer__texto p {
+  padding-top: 0.5rem !important;
+  margin-bottom: 0 !important;
 }
 
 .somos {
