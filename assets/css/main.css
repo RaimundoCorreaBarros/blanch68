@@ -44,6 +44,10 @@
     padding: 0 0 1rem 0rem !important;
   }
 
+  .integrales__cards-texto {
+    padding-bottom: 5rem;
+  }
+
   footer {
     padding-left: 3rem !important;
   }
