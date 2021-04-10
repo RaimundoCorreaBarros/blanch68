@@ -8,7 +8,7 @@
     }
 
     .ventas, .servicios  {
-        padding-left: 3rem;
+        padding: 0 3rem;
     }
 
     .servicios {
@@ -51,6 +51,9 @@
 }
 
 @media (min-width: 756px) {
+    .ventas__text1 {
+        padding-right: 50px !important;
+    }
     .cards {
         margin: auto;
     }
@@ -72,6 +75,10 @@
 }
 
 @media (min-width: 992px) {
+    .ventas__text1 {
+        padding-right: 100px !important;
+    }
+
     .ancho {
         margin: 0 auto;
         width: 45%;
@@ -81,6 +88,16 @@
         margin: 0 auto;
         width: 40%;
     }
+
+    .servicios__card {
+        margin: auto;
+        margin-left: 0 !important;
+    }
+
+    .servicios_card-text {
+        padding-right: 0;
+    }
+
     .propiedades__card-img img {
         width: 100%;
         height: 100%;

@@ -1,4 +1,3 @@
-
 .servicios {
     padding-bottom: 4rem;
     h3 {
@@ -10,17 +9,20 @@
 }
 
 .servicios__servicios {
-    padding: 0 2rem 5rem 2rem;
+    padding: 0 2rem 5rem 0;
+    margin-left: 0;
 }
 
 .servicios__card {
     margin: auto;
     max-width: 330px;
     padding: 3rem 0;
+    text-align: justify;
     img {
         height: 232px;
     }
 }
+
 .servicios__card-texto {
     padding: 1.25rem;
 }
